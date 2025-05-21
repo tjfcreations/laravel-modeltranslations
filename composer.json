@@ -1,0 +1,26 @@
+{
+    "name": "tjall/laravel-modeltranslations",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tjall\\LaravelModeltranslations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tjalling Feenstra",
+            "email": "hello@tjalling.net"
+        }
+    ],
+    "require": {
+        "filament/support": "^3.3",
+        "filament/filament": "^3.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tjall\\MediaGallery\\MediaGalleryServiceProvider"
+            ]
+        }
+    }
+}
