@@ -3,7 +3,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Tjall\\LaravelModeltranslations\\": "src/"
+            "Tjall\\ModelTranslations\\": "src/"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tjall\\MediaGallery\\MediaGalleryServiceProvider"
+                "Tjall\\ModelTranslations\\ModelTranslationsServiceProvider"
             ]
         }
     }
