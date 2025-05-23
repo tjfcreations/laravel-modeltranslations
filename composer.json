@@ -22,5 +22,9 @@
                 "Tjall\\ModelTranslations\\ModelTranslationsServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "illuminate/support": "^12.0",
+        "illuminate/database": "^12.0"
     }
 }
